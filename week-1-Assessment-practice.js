@@ -14,9 +14,9 @@ const fruit2 = "banana"
 const fruit3 = "cherry"
 const fruit4 = "kiwi"
 
-//Function name will be longerFruitName and there will be two inputs.
+//Function name will be longerFruitName and there will be two inputs. I have named these paramters firstFruit, secondFruit.
 
-//Start with function declaration
+//Start with function declaration (longerFruitName) with two parameters (firstFruit, secondFruit)
 const longerFruitName = (firstFruit, secondFruit) => {
     //This step check the length of the string in const fruit1 to length of string in const fruit2. If the length of fruit1 is longer, it will return the firstFruit length
     if (firstFruit.length > secondFruit.length) {
@@ -78,11 +78,11 @@ const myNumbers2 = [8, -7, 42, 9, 13]
 
 //Function parameters will be two arrays and will first concatenate the arrays. Then it will use .length to determine the length of the combined array.
 
-//We first declare our function
+//We first declare our function (concatArray) with two parameters (array1, array2)
 const concatArray = (array1, array2) => {
-    //we will first store the combined array because .concat() is an accessor. Since the original array is unchanged we need to hold the new array until we can determine its length
+    //We will first store the combined array because .concat() is an accessor. Since the original array is unchanged we need to hold the new array until we can determine its length
     let comboArray = array1.concat(array2)
-    //we then return the comboArray length
+    //We then return the comboArray length
     return comboArray.length
 }
 
